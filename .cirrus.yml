@@ -2,7 +2,7 @@ macos_instance:
   image: big-sur-xcode
 
 task:
-  name: XCLogParser
+  name: XCLogParse
   build_script:
     - ls
   always:
