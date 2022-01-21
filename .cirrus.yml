@@ -1,0 +1,10 @@
+macos_instance:
+  image: big-sur-xcode
+
+task:
+  name: XCLogParser
+  build_script:
+    - ls
+  always:
+    xclogparser_parse_script:
+      - ls
